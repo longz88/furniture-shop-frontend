@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="">
-      <div className="flex h-screen items-center bg-bg-banner bg-cover bg-center bg-no-repeat">
+      <div className="flex h-screen items-center bg-[url(https://truongthang.vn/wp-content/uploads/2023/08/goi-y-noi-that-phong-khach-rong-cho-nha-them-sang-va-dep-3.jpg)] bg-cover bg-center bg-no-repeat">
         <div className=" ml-auto  mr-14 w-[640px] rounded-lg bg-[#fff3e3] p-9">
           <p className="mb-1 text-base font-medium tracking-widest text-[var(--color)]">
             Hàng mới về
