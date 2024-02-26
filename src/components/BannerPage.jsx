@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import logoBanner from "../assets/banner/logo-banner.png";
-import banner from "../assets/banner/banner-img.png";
+import logoBanner from "@/assets/banner/logo-banner.png";
+import banner from "@/assets/banner/banner-img.png";
 
 const BannerPage = (props) => {
   const { title } = props;

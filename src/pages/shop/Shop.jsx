@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
-import BannerPage from "../../components/BannerPage";
-import Product from "../../components/Product";
+import BannerPage from "@/components/BannerPage";
+import Product from "@/components/Product";
 import { ConfigProvider, Select, Space } from "antd";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import SelectBox from "../../components/SelectBox";
+import SelectBox from "@/components/SelectBox";
 
 const dataSort = ["Bán chạy", "Mới nhất", "Giá: Tăng dần", "Giá: Giảm dần"];
 

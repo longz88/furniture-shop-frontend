@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import BannerPage from "../../components/BannerPage";
-import FormInput from "../../components/FormInput";
-import bannerFooter from "../../assets/banner/bannerFooter.jpg";
+import BannerPage from "@/components/BannerPage";
+import FormInput from "@/components/FormInput";
+import bannerFooter from "@/assets/banner/bannerFooter.jpg";
 import { useDispatch, useSelector } from "react-redux";
 
 const CheckOut = () => {

@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
-import logoFooter from "../assets/logo/logo-3.png";
+import logoFooter from "@/assets/logo/logo-3.png";
 import { BsStars } from "react-icons/bs";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setActivePage } from "../redux/features/page/activePageSlice";
 
 const Footer = () => {

@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
-import BannerPage from "../../components/BannerPage";
-import FormInput from "../../components/FormInput";
+import BannerPage from "@/components/BannerPage";
+import FormInput from "@/components/FormInput";
 import { notification } from "antd";
-import { postAProduct } from "../../services/product/productApi";
-import { postACategory } from "../../services/category/categoryApi";
+import { postAProduct } from "@/services/product/productApi";
+import { postACategory } from "@/services/category/categoryApi";
 
 const Add = () => {
   const [active, setActive] = useState("product");

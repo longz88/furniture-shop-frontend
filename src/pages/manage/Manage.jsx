@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import BannerPage from "../../components/BannerPage";
+import BannerPage from "@/components/BannerPage";
 import { LuSofa } from "react-icons/lu";
 import { TbCategory2 } from "react-icons/tb";
 import { useEffect, useState } from "react";
@@ -10,7 +10,7 @@ const Manager = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
+  }, []);
 
   return (
     <div className="">

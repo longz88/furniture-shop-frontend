@@ -1,5 +1,5 @@
 import { useState } from "react";
-import imgPro from "../assets/imgProduct/sofa2.webp";
+import imgPro from "@/assets/imgProduct/sofa2.webp";
 
 const DesProduct = () => {
   const [active, setActive] = useState("Description");

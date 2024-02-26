@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import BannerPage from "../../components/BannerPage";
-import bannerFooter from "../../assets/banner/bannerFooter.jpg";
+import BannerPage from "@/components/BannerPage";
+import bannerFooter from "@/assets/banner/bannerFooter.jpg";
 import { FaTrash } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";

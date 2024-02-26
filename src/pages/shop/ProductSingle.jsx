@@ -1,6 +1,6 @@
-import DesProduct from "../../components/DesProduct";
-import DisplayProduct from "../../components/DisplayProduct";
-import RelatedProduct from "../../components/RelatedProduct";
+import DesProduct from "@/components/DesProduct";
+import DisplayProduct from "@/components/DisplayProduct";
+import RelatedProduct from "@/components/RelatedProduct";
 
 const ProductSingle = () => {
   return (

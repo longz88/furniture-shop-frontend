@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import HeaderTitle from "../../components/HeaderTitle";
+import HeaderTitle from "@/components/HeaderTitle";
 
 const Range = () => {
   return (

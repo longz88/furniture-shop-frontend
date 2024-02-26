@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
-import HeaderTitle from "../../components/HeaderTitle";
-import Product from "../../components/Product";
+import HeaderTitle from "@/components/HeaderTitle";
+import Product from "@/components/Product";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "../../redux/features/productsSlice";
 import { Empty, Spin } from "antd";
 import { Link } from "react-router-dom";
 

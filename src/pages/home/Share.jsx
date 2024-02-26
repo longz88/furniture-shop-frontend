@@ -1,4 +1,4 @@
-import HeaderTitle from "../../components/HeaderTitle";
+import HeaderTitle from "@/components/HeaderTitle";
 
 const Share = () => {
   return (

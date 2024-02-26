@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-import logo from "../assets/logo/logo-3.png";
+import logo from "@/assets/logo/logo-3.png";
 import { LuSearch, LuShoppingCart, LuHeart } from "react-icons/lu";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";

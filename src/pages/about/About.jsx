@@ -1,4 +1,4 @@
-import BannerPage from "../../components/BannerPage";
+import BannerPage from "@/components/BannerPage";
 
 const About = () => {
   return (

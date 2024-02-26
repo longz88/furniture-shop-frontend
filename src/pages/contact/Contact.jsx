@@ -1,6 +1,6 @@
-import BannerPage from "../../components/BannerPage";
+import BannerPage from "@/components/BannerPage";
 import { FaLocationDot, FaPhone, FaClock } from "react-icons/fa6";
-import FormInput from "../../components/FormInput";
+import FormInput from "@/components/FormInput";
 import { useEffect } from "react";
 
 const Contact = () => {
